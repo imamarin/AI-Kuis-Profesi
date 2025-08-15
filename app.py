@@ -4,9 +4,9 @@ from streamlit_sortables import sort_items
 st.set_page_config(page_title="Kuis Drag-and-Drop Profesi", layout="centered")
 
 
-st.title("Kuis Profesi: Urutkan Preferensimu!")
+st.title("Kenan AI - Kuis Profesi: Urutkan Preferensimu!")
 
-st.write("Geser dan urutkan preferensimu dari **paling kamu suka** ke **paling tidak suka**.")
+st.write("Fun Project: Geser dan urutkan preferensimu dari **paling kamu suka** ke **paling tidak suka**.")
 
 # Pertanyaan dan opsi
 questions = [
@@ -86,3 +86,4 @@ if st.button("Lihat Hasil"):
     vote(result, messages[result], scores)
 
         
+
